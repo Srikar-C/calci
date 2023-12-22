@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="calc">
+        <!-- <div class="in"> -->
+            <input placeholder="Enter the expression" type="text" name="input" id="data">
+        <!-- </div> -->
+        <div class="table">
+            <div class="row1">
+                <span onclick="clr()" class="clear">CLR</span>
+                <span onclick="seven()" class="seven">7</span>
+                <span onclick="four()" class="four">4</span>
+                <span onclick="one()" class="one">1</span>
+                <span onclick="percent()" class="percent">%</span>
+            </div>
+            <div class="row2">
+                <span onclick="divide()" class="divide">/</span>
+                <span onclick="eight()" class="eight">8</span>
+                <span onclick="five()" class="five">5</span>
+                <span onclick="two()" class="two">2</span>
+                <span onclick="zero()" class="zero">0</span>
+            </div>
+            <div class="row3">
+                <span onclick="multi()" class="mult">X</span>
+                <span onclick="nine()" class="nine">9</span>
+                <span onclick="six()" class="six">6</span>
+                <span onclick="three()" class="three">3</span>
+                <span onclick="dot()" class="dot">.</span>
+            </div>
+            <div class="row4">
+                <span onmouseover="mouseover()" onclick="delet()" class="del">DEL</span>
+                <span onclick="minus()" class="minus">-</span>
+                <span onclick="plus()" class="plus">+</span>
+                <span onclick="equal()" class="equal">=</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

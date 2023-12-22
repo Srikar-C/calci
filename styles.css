@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+.calc{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: fit-content;
+    color: white;
+    /* padding: 5px; */
+    margin: 0px auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    box-shadow: 1px 1px 3px 2px blue;
+    height: 40%;
+}
+input{
+    width: 87%;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+}
+.table *{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:150%;
+}
+.row1 ,.row2 ,.row3 ,.row4 {
+    width: 100px;
+}
+.row1 *,.row2 *,.row3 *,.row4 *{
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 10px;
+    font-weight: 1000;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
